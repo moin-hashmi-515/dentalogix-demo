@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dentalogix, Model Town Lahore — DEMO</title>
+<meta name="description" content="DEMO website for Dentalogix (Family Dental Care), Model Town, Lahore. Services, doctors and appointment booking — demo only, not the clinic's live site.">
+<style>
+:root{--blue:#1f5fa8;--blue2:#2f7fd0;--ink:#1c2b2d;--muted:#5a6b6e;--bg:#f4f7fb;--card:#fff}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.55}
+.demo{background:#b3261e;color:#fff;text-align:center;padding:10px 14px;font-weight:700;font-size:14px}
+.demo small{display:block;font-weight:400;opacity:.9}
+header{background:#fff;border-bottom:3px solid var(--blue)}
+.wrap{max-width:1000px;margin:0 auto;padding:0 18px}
+.top{display:flex;gap:16px;align-items:center;padding:18px 0;flex-wrap:wrap}
+.logo{font-weight:800;font-size:30px;color:var(--blue);letter-spacing:.5px}.logo span{color:var(--blue2)}
+h1{margin:0;font-size:28px;line-height:1.2}h1 small{display:block;font-size:15px;color:var(--muted);font-weight:500}
+nav{display:flex;gap:18px;padding:0 0 14px;flex-wrap:wrap}nav a{color:var(--ink);text-decoration:none;font-weight:600}
+.hero{padding:36px 0 28px}.hero h2{font-size:34px;margin:0 0 10px;line-height:1.25}
+.hero p{font-size:18px;color:#334}
+.btn{display:inline-block;background:var(--blue);color:#fff;padding:12px 20px;border-radius:10px;text-decoration:none;font-weight:700;margin:6px 8px 6px 0}
+.btn.outline{background:#fff;color:var(--blue);border:2px solid var(--blue)}
+section{padding:28px 0}h2{font-size:26px;margin:0 0 14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+.card{background:var(--card);border-radius:14px;padding:18px;box-shadow:0 2px 10px rgba(0,0,0,.06)}
+.card h3{margin:0 0 6px;font-size:18px}.card p{margin:0;color:var(--muted)}
+form{background:#fff;border-radius:14px;padding:20px;box-shadow:0 2px 10px rgba(0,0,0,.06)}
+label{display:block;font-weight:600;margin:12px 0 4px}
+input,select,textarea{width:100%;padding:11px;border:1px solid #cbd5d7;border-radius:10px;font:inherit}
+button{cursor:pointer;background:var(--blue);color:#fff;border:0;padding:13px 22px;border-radius:10px;font-weight:700;font-size:16px}
+.ok{background:#e6f4ea;border:1px solid #a3d9a5;padding:12px;border-radius:10px;margin-top:14px;display:none}
+.note{font-size:14px;color:var(--muted)}footer{background:#1c2b2d;color:#dbe3e3;padding:26px 0;margin-top:20px}
+footer a{color:#fff}
+@media(max-width:600px){.hero h2{font-size:27px}}
+</style>
+</head>
+<body>
+<div class="demo">DEMO WEBSITE — NOT THE CLINIC'S LIVE SITE <small>This is a sample design for Dentalogix to review. Bookings entered here are demo-only and are not sent to the clinic.</small></div>
+<header><div class="wrap">
+<div class="top"><div class="logo">DENTAL<span>O</span>GIX</div><div><h1>Family Dental Care <small>Model Town, Lahore</small></h1></div></div>
+<nav><a href="#services">Dental Services</a><a href="#aesthetics">Aesthetics</a><a href="#doctors">Doctors</a><a href="#book">Book Appointment</a><a href="#contact">Contact</a><a href="admin.html">Clinic Login (Demo CMS)</a></nav>
+</div></header>
+<main class="wrap">
+<section class="hero">
+<h2>Dental and aesthetic care in Model Town, in one place.</h2>
+<p>Right now patients find Dentalogix across two Instagram accounts and several directories, with no independent website and no single services or timings page. This demo shows how one website could hold it all together: dental services, aesthetics, doctors, and one appointment form.</p>
+<a class="btn" href="#book">Book an Appointment</a>
+<a class="btn outline" href="tel:+924235915683">Call 042 35915683</a>
+<a class="btn outline" href="tel:+923365915683">Call 0336 5915683</a>
+<p class="note">No WhatsApp booking is shown here, because no verified clinic WhatsApp link was found. Patients can call or message on Instagram.</p>
+</section>
+
+<section id="services"><h2>Dental Services</h2>
+<p class="note">As listed for Dr. Mariam Gulraiz at Dentalogix on oladoc. No clinic-wide services page was found, so this list is labelled by its source and is not presented as a complete clinic list.</p>
+<div class="grid" id="serviceGrid"></div>
+</section>
+
+<section id="aesthetics"><h2>Aesthetics — as shown on Instagram</h2>
+<p class="note">Treatments shown on the @dentalogix.aesthetics Instagram account, kept separate from the dental list above. Not merged into one clinic-wide list.</p>
+<div class="grid">
+<div class="card"><h3>Teeth Whitening</h3><p>Shown on Instagram.</p></div>
+<div class="card"><h3>PRP Hair Treatment</h3><p>Shown on Instagram.</p></div>
+<div class="card"><h3>Microneedling</h3><p>Shown on Instagram.</p></div>
+<div class="card"><h3>HIFU Treatment</h3><p>Shown on Instagram.</p></div>
+<div class="card"><h3>Signature Facial</h3><p>Shown on Instagram.</p></div>
+<div class="card"><h3>Acne Treatments</h3><p>Shown on Instagram.</p></div>
+</div></section>
+
+<section id="doctors"><h2>Our Dentists</h2>
+<p class="note">Doctors as listed on Marham / oladoc. No owner or founder was named publicly, so none is shown here. Experience figures differ across directories and are intentionally not shown.</p>
+<div class="grid">
+<div class="card"><h3>Dr. Hanan Ansari</h3><p>Dentist — BDS</p></div>
+<div class="card"><h3>Dr. Fatima Khalid Mahmood</h3><p>Dentist — BDS</p></div>
+<div class="card"><h3>Dr. Fareed Chishti</h3><p>Dentist, Cosmetic Dentist — BDS, RDS, FCPS (OMFS)</p></div>
+<div class="card"><h3>Dr. Mariam Gulraiz</h3><p>Dentist, Cosmetic Dentist — BDS</p></div>
+<div class="card"><h3>Dr. Shoaib Ahmed</h3><p>Dentist, Orthodontist — BDS, FCPS</p></div>
+<div class="card"><h3>Dr. Saad Liaqat</h3><p>Dentist, Cosmetic Dentist — BDS</p></div>
+</div></section>
+
+<section id="book"><h2>Book an Appointment</h2>
+<form id="bookForm">
+<label for="pname">Your name</label><input id="pname" required placeholder="Full name">
+<label for="pphone">Phone</label><input id="pphone" required placeholder="03xx xxxxxxx" inputmode="tel">
+<label for="pservice">Service</label><select id="pservice"></select>
+<label for="pdate">Preferred date</label><input id="pdate" type="date" required>
+<label for="ptime">Preferred time</label><input id="ptime" type="time">
+<label for="pnotes">Anything we should know? (optional)</label><textarea id="pnotes" rows="3" placeholder="e.g. tooth pain, check-up, braces consultation"></textarea>
+<p><button type="submit">Request Appointment (Demo)</button></p>
+<div class="ok" id="okMsg">Thank you — your demo request has been saved in this browser only. In a live site, the clinic would confirm by phone. This demo does not send anything to the clinic.</div>
+<p class="note">Demo notice: this form stores the request in your browser's local storage only. There is no server, no real login, and no payment or notification system in this demo. A production site would need a backend / WordPress build.</p>
+</form></section>
+
+<section id="contact"><h2>Visit &amp; Contact</h2>
+<div class="grid">
+<div class="card"><h3>Address</h3><p>3rd Floor, 72-77 Bank Square Market, Model Town, Lahore, Pakistan</p></div>
+<div class="card"><h3>Phone</h3><p><a href="tel:+924235915683">042 35915683</a><br><a href="tel:+923365915683">0336 5915683</a></p></div>
+<div class="card"><h3>Timings</h3><p>Timings vary across listings — please call to confirm. No single clinic schedule was verified.</p></div>
+<div class="card"><h3>Instagram</h3><p><a href="https://www.instagram.com/dentalogix/">@dentalogix</a><br><a href="https://www.instagram.com/dentalogix.aesthetics/">@dentalogix.aesthetics</a></p><p>No dedicated Facebook page was found.</p></div>
+</div>
+</section>
+</main>
+<footer><div class="wrap">
+<p><strong>DEMO — Dentalogix website sample.</strong> Built for review only. Not affiliated with, and not published by, the clinic. Real patient data must not be entered in this demo.</p>
+<p><a href="admin.html">Clinic Login (Demo CMS)</a> — front-end demo only; login is UI-only, no real authentication.</p>
+</div></footer>
+<script>
+const KEY='dentalogix_demo_v1';
+const DEFAULT_SERVICES=["Crown & Bridges","Extractions","Fillings","Full and partial dentures","Root Canal Treatment"];
+function getData(){try{return JSON.parse(localStorage.getItem(KEY))||{}}catch(e){return{}}}
+function services(){const d=getData();return (d.services&&d.services.length)?d.services:DEFAULT_SERVICES}
+function render(){
+  const g=document.getElementById('serviceGrid');const s=document.getElementById('pservice');
+  g.innerHTML='';s.innerHTML='';
+  services().forEach(x=>{const c=document.createElement('div');c.className='card';c.innerHTML='<h3>'+x+'</h3><p>Available at Dentalogix, Model Town.</p>';g.appendChild(c);
+  const o=document.createElement('option');o.textContent=x;s.appendChild(o);});
+}
+document.getElementById('bookForm').addEventListener('submit',e=>{e.preventDefault();
+  const d=getData();d.appointments=d.appointments||[];
+  d.appointments.push({name:document.getElementById('pname').value,phone:document.getElementById('pphone').value,service:document.getElementById('pservice').value,date:document.getElementById('pdate').value,time:document.getElementById('ptime').value,notes:document.getElementById('pnotes').value,status:'Pending',at:new Date().toISOString()});
+  localStorage.setItem(KEY,JSON.stringify(d));document.getElementById('okMsg').style.display='block';e.target.reset();});
+render();
+</script>
+</body>
+</html>
